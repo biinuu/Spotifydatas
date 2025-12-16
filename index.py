@@ -41,7 +41,7 @@ def get_new_releases():
         data=response.json()
       
         albums=data['albums']['items']
-        for i in albums:
+        for album in albums:
             a={
                 'album_name':i['name'],
                 'Release_date':i['release_date']
