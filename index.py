@@ -51,6 +51,7 @@ def get_new_releases():
 get_new_releases()
 
 
+#watched till 20:00
 
 
 
